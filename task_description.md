@@ -21,7 +21,7 @@ However, your website **cannot** be related to your **previous assignments** or 
 6. On clicking the view details button, the user will be taken to the service details page: _/services/:id_ route
 7. The service details route will have two sections.
 
-	7.1. **Service section:-** show all the details of that product with full description.
+	7.1. **Service section:-** show all the details of that Service with full description.
 	
 	7.2. **Review section:-** there will be a review section where a user can see others' reviews of that service. A review should contain a text, name, and image of the reviewer, rating(optional). The user can also **add his/her own review** for that service. But he needs to log in first. If the user is not logged in(use conditional rendering), show a text like: Please login to add a review. After clicking the login button/link, take him to the login page. Otherwise, show a form with a text area and a button to add his review(rating is optional). Please store the user info (email, etc.) and service info (service id, etc.) with each review to display the reviews correctly with the relevant service.
 
@@ -30,7 +30,7 @@ However, your website **cannot** be related to your **previous assignments** or 
 10. The "My reviews" page will be a private route and show only the reviews that the current user added either in a table or in cards with relevant information like - service name, review etc. There will be two buttons/icons - edit review(details in the bonus part) and **delete review** with each review. On clicking the delete button/icon, you have to delete the review, and it won't show up on that service page anymore. When the delete is successful, a toast/modal with a message will pop up to inform the user. If the user doesn't add any review, the page will show 'No reviews were added' at the middle of the page
 11. On the "Add service" page(also a private route), you can **add a service** and that service will be shown on the home page. When the service is added successfully, a toast/modal with a message will pop up to inform the user.
 12. No Fake data (data must be hosted on the database). The database could be MongoDB or any other NoSQL database.
-13. Add one more public route: Blogs. You will have to answer the following questions on the FAQ page
+13. Add one more public route: Blogs. You will have to answer the following questions on the Blog page
 
 	- Difference between SQL and NoSQL
 	- What is JWT, and how does it work?
